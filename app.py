@@ -1,7 +1,7 @@
 from flask import Flask, Response, render_template, url_for
 import cv2
 import keras
-import tensorflow as tf
+# import tensorflow as tf
 
 app = Flask(__name__)
 reconstructed_model = keras.models.load_model("sign-language-translator.h5")
