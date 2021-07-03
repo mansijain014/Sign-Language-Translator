@@ -2,4 +2,4 @@ gunicorn
 flask
 tensorflow
 keras
-cv2
+opencv-python
