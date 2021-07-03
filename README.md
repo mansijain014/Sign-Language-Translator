@@ -1,3 +1,3 @@
 # Sign-Language-Translator
 
-![Hand Chat]("HandChat.gif")
+![Hand Chat](HandChat.gif)
