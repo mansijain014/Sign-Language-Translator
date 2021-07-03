@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Hand Chat</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="{{ url_for('static', filename='img/favicon.jpeg') }}" rel="icon">
+    <link href="{{ url_for('static', filename='img/apple-touch-icon.jpeg') }}" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/icofont/icofont.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/venobox/venobox.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/aos/aos.css') }}" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Chat</title>
+</head>
+<body>
+  <section id="translate" >
+    <div class="section-title" style="margin-top: 50px;">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <img src="static/img/profile-img.jpeg" style="padding-bottom: 20px;" class="img-fluid rounded-circle">
+        <h4>Please wait..the camera window might take 1-2 minutes to open up.</h4>
+        <h5>Press 'x' to close the camera window.</h5>
+        <a href="{{ url_for('home') }}" style="padding-top: 20px;" title="More Details"><div class="text-center"><button class="translate-button"><i class="bx bx-link"></i>Back to homepage</button></div></a>
+      </div>   
+    </div>
+  </section>
+
+    <img src="{{ url_for('video') }}" width="50%" />
+</body>
+</html>
